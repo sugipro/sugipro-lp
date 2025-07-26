@@ -1,45 +1,240 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title>スギプロの脱力打法｜公式LP</title>
-  <style>
-    body{font-family:sans-serif;margin:0;padding:0}
-    header{background:#222;color:#fff;padding:60px 20px;text-align:center}
-    .cta{display:inline-block;margin-top:20px;padding:12px 24px;background:#ff6a00;color:#fff;text-decoration:none;border-radius:6px}
-    section{padding:60px 20px;max-width:960px;margin:auto}
-    footer{text-align:center;font-size:14px;color:#666;padding:40px 0}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>スギプロの脱力打法オンライン講座｜力まず飛ばす！</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Smooth scroll for anchor links */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'sugi-navy': '#004e9a',
+                        'sugi-orange': '#ff5722',
+                    },
+                    fontFamily: {
+                        'sans': ['"Noto Sans JP"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
 </head>
-<body>
-  <header>
-    <h1>スギプロの脱力打法へようこそ</h1>
-    <p>飛距離UPとケガ防⽌を両⽴する最新メソッドを無料公開</p>
-    <a href="#signup" class="cta">無料レッスン動画を受け取る</a>
-  </header>
+<body class="bg-gray-100 text-gray-800 font-sans">
 
-  <section id="benefits">
-    <h2>脱⼒打法 3 つのメリット</h2>
-    <ul>
-      <li>ヘッドスピード最⼤化で平均＋30ヤード</li>
-      <li>⾻格と筋膜を⽣かすフォームで腰痛リスクを軽減</li>
-      <li>レベル別ドリルで最短 2 週刊で体得</li>
-    </ul>
-  </section>
+    <!-- ヒーローセクション -->
+    <header class="bg-sugi-navy text-white text-center py-20 px-4">
+        <div class="container mx-auto">
+            <h1 class="text-3xl md:text-5xl font-bold leading-tight">力まず飛ばす！<br class="md:hidden">スギプロ直伝 脱力打法</h1>
+            <p class="mt-4 text-lg md:text-xl max-w-2xl mx-auto">もう、力任せのスイングで悩まない。プロが実践する「脱力」の極意を学び、あなたのゴルフを次のステージへ。</p>
+            <a href="#price" class="mt-8 inline-block bg-sugi-orange hover:bg-opacity-90 text-white font-bold text-xl md:text-2xl py-4 px-10 rounded-full transition duration-300 transform hover:scale-105">
+                今すぐLINE登録で<br>無料受講する
+            </a>
+        </div>
+    </header>
 
-  <section id="testimonial">
-    <h2>受講者の声</h2>
-    <blockquote>
-      50代でも 230→265yd に伸びました！<br>― T.K さん
-    </blockquote>
-  </section>
+    <main>
+        <!-- 3カラム特徴セクション -->
+        <section class="py-12 md:py-16 bg-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-2xl md:text-3xl font-bold text-sugi-navy mb-12">脱力打法がもたらす3つの革命</h2>
+                <div class="grid md:grid-cols-3 gap-8 md:gap-12">
+                    <div class="feature-item">
+                        <div class="flex justify-center items-center h-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-sugi-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mt-4">シニアでも300yd</h3>
+                        <p class="mt-2 text-gray-600">年齢や体力に頼らず、効率的な体の使い方で飛距離を最大化。夢の300ヤードも不可能ではありません。</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="flex justify-center items-center h-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-sugi-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mt-4">ケガのリスク低減</h3>
+                        <p class="mt-2 text-gray-600">無駄な力みを取り除くことで、体への負担を大幅に軽減。長くゴルフを楽しめる体を作ります。</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="flex justify-center items-center h-24">
+                             <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-sugi-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v.01" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M7 16l-4-4m0 0l4-4m-4 4h18" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mt-4">最短3週間で体感</h3>
+                        <p class="mt-2 text-gray-600">科学的メソッドに基づいた効率的な練習法で、多くの方が3週間以内に変化を実感しています。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <section id="signup">
-    <h2>今すぐ無料動画を受け取る</h2>
-    <p>フォームにメールアドレスを⼊⼒してください。</p>
-    <!-- フォームは外部サービス (Google Forms / Tally 等) の embed を推奨 -->
-  </section>
+        <!-- 実績セクション -->
+        <section class="py-12 md:py-16">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-2xl md:text-3xl font-bold text-sugi-navy mb-12">驚きの受講実績</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+                    <div class="bg-white rounded-lg shadow-lg p-6 border-t-4 border-sugi-orange">
+                        <p class="text-lg text-gray-600">最大飛距離</p>
+                        <p class="text-4xl font-bold text-sugi-navy mt-2">+47yd</p>
+                        <p class="text-sm text-gray-500 mt-2">（58歳・男性）</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6 border-t-4 border-sugi-orange">
+                        <p class="text-lg text-gray-600">平均スコア</p>
+                        <p class="text-4xl font-bold text-sugi-navy mt-2">-15.3</p>
+                        <p class="text-sm text-gray-500 mt-2">（45歳・女性）</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6 border-t-4 border-sugi-orange">
+                        <p class="text-lg text-gray-600">フェアウェイキープ率</p>
+                        <p class="text-4xl font-bold text-sugi-navy mt-2">+32%</p>
+                        <p class="text-sm text-gray-500 mt-2">（62歳・男性）</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <footer>© 2025 スギプロ All Rights Reserved.</footer>
+        <!-- スギプロ紹介 & YouTubeセクション -->
+        <section class="py-12 md:py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-bold text-sugi-navy mb-6">講師紹介</h2>
+                        <div class="bg-gray-50 p-6 rounded-lg shadow-md flex items-center space-x-6">
+                            <img src="https://placehold.jp/150x150.png?text=スギプロ" alt="スギプロ" class="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover border-4 border-sugi-orange">
+                            <div>
+                                <h3 class="text-xl font-bold">SugiPro</h3>
+                                <p class="text-sugi-navy font-bold">脱力打法マイスター</p>
+                                <p class="mt-2 text-gray-600 text-sm">20年以上の指導歴で延べ5,000人以上のアマチュアゴルファーを指導。自身のケガの経験から、体に負担をかけずに飛距離を伸ばす「脱力打法」を確立。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl md:text-2xl font-bold text-sugi-navy mb-4 text-center md:text-left">実際の脱力打法を見る</h3>
+                        <div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-2xl">
+                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 受講ステップ -->
+        <section class="py-12 md:py-16">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-2xl md:text-3xl font-bold text-sugi-navy mb-12">簡単3ステップで受講開始</h2>
+                <div class="relative max-w-3xl mx-auto">
+                    <div class="hidden md:block absolute top-1/2 left-0 w-full h-0.5 bg-sugi-navy -translate-y-1/2"></div>
+                    <div class="grid md:grid-cols-3 gap-8 relative">
+                        <div class="step-item text-center">
+                            <div class="relative">
+                                <div class="w-24 h-24 mx-auto rounded-full bg-sugi-orange text-white flex items-center justify-center text-3xl font-bold border-4 border-white shadow-lg">1</div>
+                                <h3 class="text-xl font-bold mt-4">LINEで友達登録</h3>
+                                <p class="mt-2 text-gray-600">下のボタンから公式LINEを追加してください。</p>
+                            </div>
+                        </div>
+                        <div class="step-item text-center">
+                            <div class="relative">
+                                <div class="w-24 h-24 mx-auto rounded-full bg-sugi-orange text-white flex items-center justify-center text-3xl font-bold border-4 border-white shadow-lg">2</div>
+                                <h3 class="text-xl font-bold mt-4">限定動画を受け取る</h3>
+                                <p class="mt-2 text-gray-600">登録後すぐに、講座動画のURLが届きます。</p>
+                            </div>
+                        </div>
+                        <div class="step-item text-center">
+                            <div class="relative">
+                                <div class="w-24 h-24 mx-auto rounded-full bg-sugi-orange text-white flex items-center justify-center text-3xl font-bold border-4 border-white shadow-lg">3</div>
+                                <h3 class="text-xl font-bold mt-4">実践＆質問</h3>
+                                <p class="mt-2 text-gray-600">動画を見て実践！不明点はLINEで質問できます。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 価格表セクション -->
+        <section id="price" class="py-12 md:py-16 bg-sugi-navy text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold">今だけの特別価格</h2>
+                <p class="mt-4 text-lg">本講座は、より多くの方に脱力打法の効果を実感していただくため、期間限定で無料公開しています。</p>
+                <div class="mt-8 bg-white text-gray-800 max-w-md mx-auto rounded-lg shadow-2xl p-8">
+                    <p class="text-lg">オンライン講座 全編</p>
+                    <p class="my-4">
+                        <span class="text-2xl line-through">通常価格 19,800円</span>
+                        <span class="text-sugi-navy font-bold text-5xl block">→ 今だけ 0円</span>
+                    </p>
+                    <p class="font-bold text-sugi-orange">（LINE友達登録 特典）</p>
+                </div>
+                <a href="#cta" class="mt-10 inline-block bg-sugi-orange hover:bg-opacity-90 text-white font-bold text-xl md:text-2xl py-4 px-10 rounded-full transition duration-300 transform hover:scale-105">
+                    LINEに登録して無料で始める
+                </a>
+                <p class="mt-4 text-sm text-gray-300">※予告なくキャンペーンを終了する場合がございます。</p>
+            </div>
+        </section>
+
+        <!-- Q&Aセクション -->
+        <section class="py-12 md:py-16">
+            <div class="container mx-auto px-4 max-w-3xl">
+                <h2 class="text-2xl md:text-3xl font-bold text-sugi-navy text-center mb-12">よくあるご質問</h2>
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="font-bold text-lg text-sugi-navy flex items-start">
+                            <span class="bg-sugi-orange text-white rounded-full w-7 h-7 text-center leading-7 mr-3 flex-shrink-0">Q</span>
+                            本当に無料で受講できるのですか？
+                        </h3>
+                        <p class="mt-2 ml-10 text-gray-700">はい、期間限定のキャンペーンとして、LINEに友達登録していただいた方全員に無料で講座を公開しています。後から料金を請求することは一切ありません。</p>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg text-sugi-navy flex items-start">
+                            <span class="bg-sugi-orange text-white rounded-full w-7 h-7 text-center leading-7 mr-3 flex-shrink-0">Q</span>
+                            ゴルフ初心者でも大丈夫ですか？
+                        </h3>
+                        <p class="mt-2 ml-10 text-gray-700">もちろんです。本講座は、変なクセがつく前の初心者の方にこそ受けていただきたい内容です。専門用語も少なく、分かりやすく解説しています。</p>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg text-sugi-navy flex items-start">
+                            <span class="bg-sugi-orange text-white rounded-full w-7 h-7 text-center leading-7 mr-3 flex-shrink-0">Q</span>
+                            どれくらいの期間で効果が出ますか？
+                        </h3>
+                        <p class="mt-2 ml-10 text-gray-700">個人差はありますが、多くの方が3週間〜1ヶ月程度で「力まずに振る感覚」を掴み、飛距離アップやショットの安定を実感されています。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- フッター -->
+    <footer id="cta" class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-2xl font-bold">今すぐ「脱力打法」を体験する</p>
+            <a href="#price" class="mt-6 inline-block bg-sugi-orange hover:bg-opacity-90 text-white font-bold text-xl md:text-2xl py-4 px-10 rounded-full transition duration-300 transform hover:scale-105">
+                LINE登録で講座を無料GET
+            </a>
+            <div class="mt-8 flex justify-center space-x-6">
+                <a href="#" class="text-gray-400 hover:text-white transition">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white transition">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44 1.441-.645 1.441-1.44-.645-1.44-1.441-1.44z"/></svg>
+                </a>
+                 <a href="#" class="text-gray-400 hover:text-white transition">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24"><path d="M22.003 2.001a2.003 2.003 0 0 0-1.51-.723h-17a2.003 2.003 0 0 0-1.51.723c-.453.453-.723 1.03-.723 1.64v17.002c0 .61.27 1.187.723 1.64a2.003 2.003 0 0 0 1.51.723h17c.61 0 1.187-.27 1.64-.723a2.003 2.003 0 0 0 .723-1.51v-17c0-.61-.27-1.187-.723-1.64zm-1.723 18.279h-3.28v-5.482c0-1.294-.46-2.175-1.61-2.175-.88 0-1.39.59-1.61 1.162-.08.203-.1 4.495-.1 4.495h-3.28s.04-9.02 0-9.96h3.28v1.4c.44-.66 1.16-1.61 2.96-1.61 2.17 0 3.84 1.42 3.84 4.46v5.71zm-12.28-11.28h.02c.94 0 1.54-.62 1.54-1.4c0-.78-.6-1.39-1.56-1.39-.96 0-1.54.61-1.54 1.39 0 .78.58 1.4 1.54 1.4zm-1.64 11.28h3.28v-9.96h-3.28v9.96z"/></svg>
+                </a>
+            </div>
+            <p class="mt-8 text-sm text-gray-500">&copy; 2025 SugiPro Golf. All Rights Reserved.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
